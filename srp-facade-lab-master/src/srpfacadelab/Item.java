@@ -21,8 +21,7 @@ public class Item {
     // Rare items are shiny
     private final boolean rare;
 
-    public Item(int id, String name, int heal, int armour, int weight, boolean unique, boolean rare)
-    {
+    public Item(int id, String name, int heal, int armour, int weight, boolean unique, boolean rare) {
         this.rare = rare;
         this.setName(name);
         this.setHeal(heal);
