@@ -13,7 +13,7 @@ public class SimpleEnemy implements IEnemy {
     public void takeDamage(int amount){
         //Meant to be the simplest.
         //Allowing negative health
-        health -= amount;
+        this.health -= amount;
     }
 
     public String getName(){
