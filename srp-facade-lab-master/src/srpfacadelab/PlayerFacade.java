@@ -1,13 +1,12 @@
 package srpfacadelab;
 
 public class PlayerFacade {
-    Inventory inventory;
+    InventoryManager inventory;
     Health health;
     Action action;
 
-    public PlayerFacade(IGameEngine gameEngine) {
-        RpgPlayer player = new RpgPlayer(gameEngine);
-        inventory = new Inventory(player);
+    public PlayerFacade(RpgPlayer player) {
+        inventory = new InventoryManager(player);
         health = new Health(player, inventory);
         action = new Action(player, inventory);
     }

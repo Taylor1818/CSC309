@@ -1,10 +1,10 @@
 package srpfacadelab;
 
-public class Inventory {
+public class InventoryManager {
 
     RpgPlayer player;
 
-    public Inventory(RpgPlayer player) {
+    public InventoryManager(RpgPlayer player) {
         this.player = player;
     }
 

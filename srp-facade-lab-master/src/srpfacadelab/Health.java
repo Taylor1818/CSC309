@@ -2,9 +2,9 @@ package srpfacadelab;
 
 public class Health {
     RpgPlayer player;
-    Inventory inventory;
+    InventoryManager inventory;
 
-    public Health(RpgPlayer player, Inventory inventory) {
+    public Health(RpgPlayer player, InventoryManager inventory) {
         this.player = player;
         this.inventory = inventory;
     }

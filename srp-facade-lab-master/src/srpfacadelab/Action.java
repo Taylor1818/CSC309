@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Action {
     RpgPlayer player;
-    Inventory inventory;
+    InventoryManager inventory;
 
-    public Action(RpgPlayer player, Inventory inventory) {
+    public Action(RpgPlayer player, InventoryManager inventory) {
         this.player = player;
         this.inventory = inventory;
     }
